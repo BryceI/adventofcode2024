@@ -40,7 +40,7 @@ def dense_filesystem_checksum(dense_filesystem:str, original_filesystem_length: 
     
     return 42
 
-print("checksum is ", filesystem_checksum(input, 0))
+print("checksum is ", filesystem_checksum(input, 0))s
 print("checksum is ", filesystem_checksum('0099811188827773336446555566', 0))
 
 print("checksum is" , dense_filesystem_checksum('2333133121414131402', len('2333133121414131402'), 0, 0, [0, 0], [len('2333133121414131402') - 1, 0]))
